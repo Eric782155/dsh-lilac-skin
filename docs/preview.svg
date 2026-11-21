@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <!-- Light scheme half: pale lilac surfaces, deep-violet accent, peach bubble. -->
+  <rect x="32" y="32" width="280" height="188" rx="18" fill="#FBF8FE" stroke="#B8A6CC" stroke-width="1.5"/>
+  <rect x="48" y="48" width="248" height="28" rx="10" fill="#F7F1FC"/>
+  <circle cx="62" cy="62" r="4" fill="#BC83DE"/>
+  <rect x="76" y="58" width="56" height="8" rx="4" fill="#3C3443"/>
+  <rect x="140" y="58" width="32" height="8" rx="4" fill="#706E6E"/>
+  <rect x="48" y="88" width="248" height="72" rx="12" fill="#FFFFFF" stroke="#E4DAEF"/>
+  <rect x="64" y="104" width="140" height="8" rx="4" fill="#3C3443"/>
+  <rect x="64" y="120" width="196" height="8" rx="4" fill="#706E6E"/>
+  <rect x="64" y="136" width="110" height="8" rx="4" fill="#7C7684"/>
+  <rect x="48" y="176" width="86" height="26" rx="13" fill="#7400C2"/>
+  <rect x="62" y="185" width="58" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="214" y="176" width="82" height="26" rx="13" fill="#F0E4FF" stroke="#BC83DE"/>
+  <rect x="228" y="185" width="54" height="8" rx="4" fill="#3C3443"/>
+
+  <!-- Dark scheme half: near-black violet surfaces, pale-lilac accent. -->
+  <g transform="translate(296 0)">
+    <rect x="32" y="32" width="280" height="188" rx="18" fill="#16121C" stroke="#4A3A5E" stroke-width="1.5"/>
+    <rect x="48" y="48" width="248" height="28" rx="10" fill="#241E2E"/>
+    <circle cx="62" cy="62" r="4" fill="#AE57FF"/>
+    <rect x="76" y="58" width="56" height="8" rx="4" fill="#F4EDFF"/>
+    <rect x="140" y="58" width="32" height="8" rx="4" fill="#C6B4DC"/>
+    <rect x="48" y="88" width="248" height="72" rx="12" fill="#201A2A" stroke="#3A2F4A"/>
+    <rect x="64" y="104" width="140" height="8" rx="4" fill="#F4EDFF"/>
+    <rect x="64" y="120" width="196" height="8" rx="4" fill="#C6B4DC"/>
+    <rect x="64" y="136" width="110" height="8" rx="4" fill="#9C8CB2"/>
+    <rect x="48" y="176" width="86" height="26" rx="13" fill="#E8BFFF"/>
+    <rect x="62" y="185" width="58" height="8" rx="4" fill="#1A1322"/>
+    <rect x="214" y="176" width="82" height="26" rx="13" fill="#463A57" stroke="#AE57FF"/>
+    <rect x="228" y="185" width="54" height="8" rx="4" fill="#F4EDFF"/>
+  </g>
+
+  <!-- The eight colors the skin is built from, in palette order. -->
+  <g stroke="#706E6E" stroke-opacity="0.55" stroke-width="1">
+    <rect x="53" y="244" width="58" height="24" rx="8" fill="#7400C2"/>
+    <rect x="121" y="244" width="58" height="24" rx="8" fill="#AE57FF"/>
+    <rect x="189" y="244" width="58" height="24" rx="8" fill="#BC83DE"/>
+    <rect x="257" y="244" width="58" height="24" rx="8" fill="#E8BFFF"/>
+    <rect x="325" y="244" width="58" height="24" rx="8" fill="#F2B99C"/>
+    <rect x="393" y="244" width="58" height="24" rx="8" fill="#706E6E"/>
+    <rect x="461" y="244" width="58" height="24" rx="8" fill="#3C3443"/>
+    <rect x="529" y="244" width="58" height="24" rx="8" fill="#FFFFFF"/>
+  </g>
+</svg>

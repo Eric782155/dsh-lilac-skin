@@ -1,0 +1,55 @@
+{
+  "name": "dsh-lilac-skin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "用紫罗兰与丁香紫色系为 DeepSeek Harness 网页界面换肤。浅色模式是淡紫表面配深紫主按钮、链接与焦点环，深色模式是近黑紫表面配淡紫主按钮。用户消息气泡是很淡的丁香色、以丁香紫描边，选中与悬停也用丁香紫。会话右侧轮次导航条上，「当前轮次」是淡紫，鼠标悬停或键盘聚焦的那一条略强一些；滚动条滑块改用更深的紫灰，悬停时更醒目。覆盖表面、文字、边框、按钮、菜单、代码块、侧边栏与滚动条，跟随「外观」设置，启用后立即生效。成功、警告、错误等状态色保持原值，语法高亮、文件差异、JSON 树与文档预览表面也沿用原配色。关闭方式：打开「插件」页面停用「丁香皮肤」，配色立即恢复。",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "skin",
+    "theme",
+    "lilac",
+    "violet"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric782155/dsh-lilac-skin.git"
+  },
+  "homepage": "https://github.com/Eric782155/dsh-lilac-skin#readme",
+  "bugs": {
+    "url": "https://github.com/Eric782155/dsh-lilac-skin/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-theme"]
+    }
+  }
+}

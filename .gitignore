@@ -1,0 +1,14 @@
+# Dependencies and build leftovers
+node_modules/
+.pnpm-store/
+
+# Packed artifacts (release them through the GitHub Releases page, not the tree)
+*.tgz
+release/
+
+# Local editor and OS noise
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
